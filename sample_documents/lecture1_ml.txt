@@ -1,0 +1,10 @@
+Introduction to Machine Learning - Lecture 1 Notes
+
+1. Supervised Learning
+Supervised learning algorithms build a mathematical model of a set of data that contains both the inputs and the desired outputs. The data is known as training data, and consists of a set of training examples. Each training example has one or more inputs and a desired output, also known as a supervisory signal or label. Common supervised algorithms include linear regression, logistic regression, support vector machines, and random forests.
+
+2. Gradient Descent Optimization
+Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. To find a local minimum of a function using gradient descent, the algorithm takes steps proportional to the negative of the gradient of the function at the current point. The magnitude of the steps is determined by a parameter called the learning rate (alpha). If the learning rate is too large, the algorithm may overshoot the minimum and diverge. If the learning rate is too small, convergence will be extremely slow.
+
+3. Overfitting and Regularization
+Overfitting occurs when an algorithm corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably. Regularization techniques such as L1 (Lasso) and L2 (Ridge) introduce penalty terms to the loss function to constrain model complexity and prevent overfitting.
